@@ -22,7 +22,7 @@ export const Hero = () => {
             
             <div className="space-y-4 text-lg text-foreground/80">
               <p>
-                eMoods is a user-friendly app for patients to track symptom data relating to Bipolar I and II disorders, Depression, PTSD, and Anxiety Disorders.
+                Mindbloom is a user-friendly app for patients to track symptom data relating to Bipolar I and II disorders, Depression, PTSD, and Anxiety Disorders.
               </p>
               
               <p>
@@ -40,7 +40,7 @@ export const Hero = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
                 src={heroDashboard} 
-                alt="eMoods Dashboard Interface" 
+                alt="Mindbloom Dashboard Interface" 
                 className="w-full h-auto"
               />
             </div>
