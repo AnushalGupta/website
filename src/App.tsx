@@ -22,7 +22,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <Routes>
+        <Routes future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
           {/* 2. ADD YOUR NEW ROUTES HERE */}
           <Route path="/" element={<Index />} />
           <Route path="/student/login" element={<StudentLogin />} />
