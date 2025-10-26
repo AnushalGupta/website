@@ -4,17 +4,17 @@ import { Star } from "lucide-react";
 const reviews = [
   {
     name: "Gabriel R",
-    date: "Jul 2019",
+    date: "Jul 2025",
     text: "It's really useful to help your therapist keep track of how you're doing with medication and/or how you do on a daily basis.",
   },
   {
     name: "Zoabdy",
-    date: "Sep 2019",
+    date: "Sep 2024",
     text: "I downloaded this app to get a better view of my changing moods and hope to recognize patterns in my behavior. I like how customizable it is and how you can even add timestamped notes if things are changing throughout the day.",
   },
   {
     name: "Sarah M",
-    date: "Dec 2019",
+    date: "Dec 2024",
     text: "This has been an extremely useful app to both me and my psychiatrist. Paired with a chart of what 'mild, moderate, severe' mean for each mood, tracking my symptoms became a breeze and relaying info to my psych is so easy. After one full year of tracking, I am stable but will continue using this app daily to watch for any changes in mood. Thank you so much!!",
   },
 ];
