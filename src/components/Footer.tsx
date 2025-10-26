@@ -1,11 +1,24 @@
-import { Footer, FooterCopyright, FooterIcon, FooterLink, FooterLinkGroup, FooterTitle } from "flowbite-react";
-import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
+import {
+  Footer,
+  FooterCopyright,
+  FooterIcon,
+  FooterLink,
+  FooterLinkGroup,
+  FooterTitle,
+} from "flowbite-react";
+import {
+  BsDribbble,
+  BsFacebook,
+  BsGithub,
+  BsInstagram,
+  BsTwitter,
+} from "react-icons/bs";
 
 export function Component() {
   return (
-    <Footer bgDark>
+    <Footer container className="bg-gray-900 text-gray-300">
       <div className="w-full">
-        <div className="grid w-full grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
+        <div className="grid w-full grid-cols-2 gap-8 px-6 py-12 md:grid-cols-4">
           <div>
             <FooterTitle title="Company" />
             <FooterLinkGroup col>
@@ -15,8 +28,9 @@ export function Component() {
               <FooterLink href="#">Blog</FooterLink>
             </FooterLinkGroup>
           </div>
+
           <div>
-            <FooterTitle title="help center" />
+            <FooterTitle title="Help Center" />
             <FooterLinkGroup col>
               <FooterLink href="#">Discord Server</FooterLink>
               <FooterLink href="#">Twitter</FooterLink>
@@ -24,16 +38,18 @@ export function Component() {
               <FooterLink href="#">Contact Us</FooterLink>
             </FooterLinkGroup>
           </div>
+
           <div>
-            <FooterTitle title="legal" />
+            <FooterTitle title="Legal" />
             <FooterLinkGroup col>
               <FooterLink href="#">Privacy Policy</FooterLink>
               <FooterLink href="#">Licensing</FooterLink>
-              <FooterLink href="#">Terms &amp; Conditions</FooterLink>
+              <FooterLink href="#">Terms & Conditions</FooterLink>
             </FooterLinkGroup>
           </div>
+
           <div>
-            <FooterTitle title="download" />
+            <FooterTitle title="Download" />
             <FooterLinkGroup col>
               <FooterLink href="#">iOS</FooterLink>
               <FooterLink href="#">Android</FooterLink>
@@ -42,9 +58,14 @@ export function Component() {
             </FooterLinkGroup>
           </div>
         </div>
-        <div className="w-full bg-gray-700 px-4 py-6 sm:flex sm:items-center sm:justify-between">
-          <FooterCopyright href="#" by="Flowbite™" year={2022} />
-          <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
+
+        <div className="w-full border-t border-gray-700 px-4 py-6 flex flex-col sm:flex-row items-center justify-between">
+          <FooterCopyright
+            href="#"
+            by="MindEase™"
+            year={new Date().getFullYear()}
+          />
+          <div className="flex space-x-6 mt-4 sm:mt-0">
             <FooterIcon href="#" icon={BsFacebook} />
             <FooterIcon href="#" icon={BsInstagram} />
             <FooterIcon href="#" icon={BsTwitter} />
@@ -57,4 +78,3 @@ export function Component() {
   );
 }
 export { Footer };
-

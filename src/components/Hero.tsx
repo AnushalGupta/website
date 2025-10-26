@@ -2,6 +2,9 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import heroDashboard from "@/assets/hero-dashboard.png";
 
+
+import { Link } from 'react-router-dom'
+
 export const Hero = () => {
   return (
     <section className="bg-hero-gradient py-20 md:py-32">
@@ -30,10 +33,13 @@ export const Hero = () => {
               </p>
             </div>
             
-            <Button variant="default" size="lg" className="group">
+          <Button asChild variant="default" size="lg" className="group">
+            <Link to="/student/login">
               Start Tracking
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-            </Button>
+            </Link>
+          </Button>
+
           </div>
           
           <div className="relative">
