@@ -9,9 +9,9 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
 // 1. IMPORT YOUR NEW PAGES
-import StudentLogin from "./pages/StudentLogin";
-import ForgetPassword from "./pages/ForgetPassword";
-import StudentSignup from "./pages/StudentSignup";
+import Auth from "./pages/Auth";
+
+
 import AdminLogin from "./pages/AdminLogin";
 import AdminDashboard from "./pages/AdminDashboard";
 
@@ -28,9 +28,8 @@ const App = () => (
         <Routes future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
           {/* 2. ADD YOUR NEW ROUTES HERE */}
           <Route path="/" element={<Index />} />
-          <Route path="/student/login" element={<StudentLogin />} />
-          <Route path="/forget/password" element={<ForgetPassword />} />
-          <Route path="/student/signup" element={<StudentSignup />} />
+          <Route path="/auth" element={<Auth />} />
+          
           <Route path="/admin/login" element={<AdminLogin />} />
           <Route path="/admin/dashboard" element={<AdminDashboard />} />
 

@@ -41,7 +41,7 @@ export const Navigation = () => {
 
           {/* 2. ADD "asChild" TO THE BUTTON AND WRAP THE TEXT IN A <Link> */}
           <Button asChild variant="hero" size="lg">
-            <Link to="/student/login">Login / Sign Up</Link>
+            <Link to="/auth">Login / Sign Up</Link>
           </Button>
         </div>
       </div>
