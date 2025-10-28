@@ -55,7 +55,7 @@ export const Hero = () => {
               <div className="text-center">
                 <div className="text-2xl font-bold">BEST</div>
                 <div className="text-xl font-semibold">APP</div>
-                <div className="text-3xl font-bold">2020</div>
+                <div className="text-3xl font-bold">2024</div>
                 <div className="text-xs mt-2 opacity-90">Bipolar</div>
               </div>
             </div>
