@@ -34,7 +34,7 @@ export const Hero = () => {
             </div>
             
           <Button asChild variant="default" size="lg" className="group">
-            <Link to="/student/login">
+            <Link to="/auth">
               Start Tracking
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
             </Link>
